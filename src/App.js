@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react'
-import Navbar from './compoments/Navbar'
-import Movies from './compoments/Movies'
-import AddMovie from './compoments/AddMovie'
-import Banner from './compoments/Banner'
-import axios from './compoments/axios/axios'
+import Navbar from './compoments/navbar/Navbar'
+import Movies from './compoments/movielist/Movies'
+import AddMovie from './compoments/addmovie/AddMovie'
+import Banner from './compoments/banner/Banner'
+import axios from './compoments/axios/Axios'
 import requests from './compoments/axios/Requests'
 
 function App() {
