@@ -1,0 +1,9 @@
+.card1{
+    display: flex;
+    /* width: 100vw; */
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 10px 15px;
+    padding: 0 20px;
+    gap: 1rem;
+}
