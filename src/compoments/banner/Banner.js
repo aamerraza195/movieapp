@@ -32,7 +32,9 @@ const Banner = () => {
         backgroundImage: `url("https://image.tmdb.org/t/p/original/${movie?.backdrop_path}")`,
         backgroundPosition: 'center center',
         height: '30vw',
-        width: '100vw',
+        width: '98vw',
+        margin: 'auto',
+        borderRadius: '10px',
       }}
     >
       <h1 className="banner_title">
